@@ -2,7 +2,7 @@
 
 **Play it here: [paral-lax.github.io/Wait-is-this-just-a-dark-room](https://paral-lax.github.io/Wait-is-this-just-a-dark-room/)**
 
-I was bored and wanted to see what would happen if I recoded A Dark Room.
+I was bored and wanted to see what would happen if I recoded A Dark Room. **Not made for mobile use.**
 
 This version adds more features but isn't finished yet. Expect bugs, incomplete systems, and things that might change.
 
