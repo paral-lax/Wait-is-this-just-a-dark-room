@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wait, is this just A Dark Room?</title>
+<link rel="stylesheet" href="files/stylesheets/styles.css">
+</head>
+<body data-theme="dark">
+<div class="container">
+  <div class="header">
+    <div class="title" id="gameTitle">A Dark Room</div>
+    <div class="status">
+      fire: <span id="fireStatus">unlit</span> · 
+      <span id="timeIndicator" class="night-indicator">12:00 am</span> ·
+      day: <span id="dayCounter">0</span> · 
+      population: <span id="population">0</span>
+    </div>
+    <div class="status-effects" id="statusEffects"></div>
+  </div>
+
+  <div class="main">
+    <div class="left">
+      <div class="events">
+        <div id="eventsList"></div>
+      </div>
+
+      <div class="actions">
+        <div class="tabs" id="tabs"></div>
+        <div class="action-content" id="actionContent"></div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="inventory">
+        <h3>inventory</h3>
+        <div class="inv-list" id="inventoryList"></div>
+      </div>
+
+      <div class="village">
+        <h3>Village</h3>
+        <div id="villageInfo"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <button onclick="game.showSpeedModal()">Game Speed</button>
+    <button onclick="window.open('https://github.com/doublespeakgames/adarkroom')">github</button>
+    <button onclick="game.showCredits()">credits</button>
+    <button onclick="game.reset()">reset</button>
+  </div>
+</div>
+
+<button class="save-btn" onclick="game.saveGame(true)">save</button>
+<button class="theme-btn" onclick="game.toggleTheme()" id="themeBtn">light</button>
+<div class="toast" id="toast">saved!</div>
+<div class="tooltip" id="tooltip"></div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <h3 id="modalTitle"></h3>
+    <p id="modalText"></p>
+    <div class="modal-actions" id="modalActions"></div>
+  </div>
+</div>
+
+<script type="module" src="files/scripts/events.js"></script>
+
+<script src="files/scripts/main.js"></script>
+<div class="footer-text">Wait, is this just A Dark Room?</div>
+</body>
+</html>
