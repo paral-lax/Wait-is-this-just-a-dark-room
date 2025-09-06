@@ -15,9 +15,9 @@ This edition includes better day/night cycles, status effects, health mechanics,
 - Health system for villagers
 - Status effects that actually impact gameplay  
 - More random events with consequences
-- Job management system
+- Different Job management system
 - Day/night cycle with sleep mechanics
-- Enhanced trading systems
+- different trading systems
 
 ## Controls
 
